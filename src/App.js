@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import Activities from "./comp/Activities/Activites";
+import BookingFlight from "./comp/BookingFlight/BookingFlight";
+import BookingYourStay from "./comp/BookingYourStay/BookingYourStay";
+import RSVPAdditional from "./comp/RSVPandAdditional/RSVPAdditional";
+import StayingAtDM from "./comp/StayingAtDM/StayingAtDM";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <div className="container mt-3">
+          <BookingYourStay/>
+          <StayingAtDM/>
+          <Activities/>
+          <BookingFlight/>
+        <RSVPAdditional/>
+        </div>
+
+
     </div>
   );
 }
