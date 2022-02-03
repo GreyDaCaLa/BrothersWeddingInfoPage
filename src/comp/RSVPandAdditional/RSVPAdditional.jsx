@@ -66,6 +66,7 @@ const RSVPAdditional = () => {
         at 616-204-2105 or Loanna at 616-706-4128.
       </div>
 
+      <div className="Self_Spacer"></div>
       </>
       
     );

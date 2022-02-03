@@ -9,21 +9,43 @@ body,
   width: 100%;
   height: 100%;
   margin: 0px;
+  // padding: 5px;
   padding: 0px;
 }
 
 body {
   // background: darkgrey;
   // position: fixed;
+  background-color: wheat;
+  // margin-bottom: 300px;
 }
 
+.Self_TitleText{
+  position: absolute;
+  top:100px;
+
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  font-size: min(50px,12vw);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color:wheat;
+}
+
+
+.container{
+  padding: 17px;
+  
+}
+
+
 .Self_Spacer {
-  padding: 500px;
-  background-color: red;
+  padding: 50px;
+  // background-color: red;
 }
 
 .Self_head1 {
-  // font-size: 50px;
+  padding-top: 10px;
   font-size: min(30px,7vw);
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;

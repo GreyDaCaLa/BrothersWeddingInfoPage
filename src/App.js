@@ -8,7 +8,11 @@ import StayingAtDM from "./comp/StayingAtDM/StayingAtDM";
 function App() {
   return (
     <div className="App">
-          <div className="container mt-3">
+      <div className="Self_TitleText">{`Loanna & Gregorio`}  </div>
+      <div className="w-100">
+          <img src="/images/TheCouple.jpg" alt="" className="w-100" />
+      </div>
+          <div className="container">
           <BookingYourStay/>
           <StayingAtDM/>
           <Activities/>
