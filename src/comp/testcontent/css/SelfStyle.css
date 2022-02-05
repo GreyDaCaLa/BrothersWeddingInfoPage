@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+/* @import url('../assets/TheCouple.jpg'); */
+
+
+
+.Self_LandingText {
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+
+.Self_LandingBody {
+    background: url("../assets/TheCouple.jpg") no-repeat center center fixed;
+    height: inherit;
+  }
