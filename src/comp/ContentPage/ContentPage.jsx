@@ -12,7 +12,7 @@ import RSVPAdditional from "../TextContent/English/RSVPandAdditional/RSVPAdditio
 // BookingFlight
 // RSVPAdditional
 
-const ContentPages = () => {
+const ContentPages = ({len,setPage}) => {
   return (
     <>
       {/* <!-- Navigation--> */}
@@ -21,7 +21,7 @@ const ContentPages = () => {
         id="mainNav"
       >
         <div class="container px-4">
-          <a class="navbar-brand" href="/">{`L&G's Wedding`}</a>
+          <a class="navbar-brand" onClick={()=>{setPage('')}} >{`L&G's Wedding`}</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -64,7 +64,13 @@ const ContentPages = () => {
 
               <li class="nav-item">
                 <a class="nav-link" href="#RSVPAdditional">
-                    RSVPAdditional
+                    Additional Info
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#toptop">
+                    RSVP
                 </a>
               </li>
 
