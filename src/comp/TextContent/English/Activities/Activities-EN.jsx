@@ -1,4 +1,4 @@
-const Activities = () => {
+const Activities_EN = () => {
   return (
     <>
       <div className="Self_head1 text-center">
@@ -31,4 +31,4 @@ const Activities = () => {
   );
 };
 
-export default Activities;
+export default Activities_EN;

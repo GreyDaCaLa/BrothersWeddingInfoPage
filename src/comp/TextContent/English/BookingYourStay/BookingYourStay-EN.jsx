@@ -1,4 +1,4 @@
-const BookingYourStay = () => {
+const BookingYourStay_EN = () => {
 
 
   const dispTable1 = ()=>{
@@ -27,12 +27,11 @@ const BookingYourStay = () => {
     )
   }
 
-  
-
 
   return (
     <>
-      <div className="Self_TextBody">
+    
+    <div className="Self_TextBody">
         <div className="row m-0 p-0 text-center text-md-end justify-content-center justify-content-md-start">
         <strong className="col-sm-2 p-0 ">Location:</strong> <span className="col-auto ps-1"> Punta Cana, Dominican Republic</span>
         </div>
@@ -103,9 +102,8 @@ const BookingYourStay = () => {
         said if we were you we would book the resort 1st to make sure you have
         where you are staying secured.
       </div>
-      
     </>
   );
 };
 
-export default BookingYourStay;
+export default BookingYourStay_EN;

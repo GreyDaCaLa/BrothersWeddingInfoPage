@@ -1,10 +1,17 @@
 import "./css/styles.css";
 import "./css/SelfStyle.css";
-import BookingYourStay from "../TextContent/English/BookingYourStay/BookingYourStay";
-import StayingAtDM from "../TextContent/English/StayingAtDM/StayingAtDM";
-import Activities from "../TextContent/English/Activities/Activites";
-import BookingFlight from "../TextContent/English/BookingFlight/BookingFlight";
-import RSVPAdditional from "../TextContent/English/RSVPandAdditional/RSVPAdditional";
+import HeaderRSVP_EN from "../TextContent/English/HeaderRSVP_EN";
+import HeaderRSVP_SP from "../TextContent/Spanish/HeaderRSVP_SP";
+import BookingYourStay_EN from "../TextContent/English/BookingYourStay/BookingYourStay-EN";
+import BookingYourStay_SP from "../TextContent/Spanish/BookingYourStay/BookingYourStay-SP";
+import StayingAtDM_EN from "../TextContent/English/StayingAtDM/StayingAtDM-EN";
+import StayingAtDM_SP from "../TextContent/Spanish/StayingAtDM/StayingAtDM-SP";
+import Activities_EN from "../TextContent/English/Activities/Activities-EN";
+import Activities_SP from "../TextContent/Spanish/Activities/Activities-SP";
+import BookingFlight_EN from "../TextContent/English/BookingFlight/BookingFlight-EN";
+import BookingFlight_SP from "../TextContent/Spanish/BookingFlight/BookingFlight-SP";
+import RSVPAdditional_EN from "../TextContent/English/RSVPandAdditional/RSVPAdditional-EN";
+import RSVPAdditional_SP from "../TextContent/Spanish/RSVPandAdditional/RSVPAdditional-SP";
 
 // BookingYourStay
 // StayingAtDM
@@ -12,7 +19,14 @@ import RSVPAdditional from "../TextContent/English/RSVPandAdditional/RSVPAdditio
 // BookingFlight
 // RSVPAdditional
 
-const ContentPages = ({len,setPage}) => {
+const ContentPages = ({lan,setPage}) => {
+
+
+  function chooseLAN(){
+    return lan=='sp';
+    // return true;
+  }
+
   return (
     <>
       {/* <!-- Navigation--> */}
@@ -40,31 +54,31 @@ const ContentPages = ({len,setPage}) => {
 
               <li class="nav-item">
                 <a class="nav-link" href="#BookingYourStay">
-                  BookingYourStay
+                  {chooseLAN()?"Reservando su estadia":"BookingYourStay"}
                 </a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#StayingAtDM"> 
-                  StayingAtDM 
+                {chooseLAN()?"Alojamiento en el Dreams Macao":"StayingAtDM"}
                 </a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#Activities">
-                  Activities
+                {chooseLAN()?"Actividades":"Activities"}
                 </a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#BookingFlight">
-                BookingFlight
+                {chooseLAN()?"Compra de Vuelo":"BookingFlight"}
                 </a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#RSVPAdditional">
-                    Additional Info
+                {chooseLAN()?"Información Adicional":"Additional Info"}
                 </a>
               </li>
 
@@ -84,20 +98,7 @@ const ContentPages = ({len,setPage}) => {
       {/* <!-- Header--> */}
       <header id="toptop" class="Self_ContHS bg-gradient text-white">
         <div class="container px-4 text-center">
-          <h1 class="fw-bolder">We Hope You Can Attend!!</h1>
-          <p class="lead">
-            Below we have information to help you make that decision.
-          </p>
-          <p class="lead">
-            If You Made up your mind and plan on coming then please RSVP on our
-            WithJOY site below.
-          </p>
-          <a
-            class="btn btn-outline-light"
-            href="https://withjoy.com/loanna-and-gregorio/welcome"
-          >
-            I Want to RSVP
-          </a>
+          {chooseLAN()?<HeaderRSVP_SP/>:<HeaderRSVP_EN/>}
         </div>
       </header>
 
@@ -106,7 +107,7 @@ const ContentPages = ({len,setPage}) => {
         <div class="container px-4 ">
           <div class="row gx-4 justify-content-center">
             <div class="col-lg-10">
-              <BookingYourStay />
+            {chooseLAN()?<BookingYourStay_SP/>:<BookingYourStay_EN/>}
             </div>
           </div>
         </div>
@@ -117,7 +118,7 @@ const ContentPages = ({len,setPage}) => {
         <div class="container px-4 ">
           <div class="row gx-4 justify-content-center">
             <div class="col-lg-10">
-              <StayingAtDM />
+            {chooseLAN()?<StayingAtDM_SP/>:<StayingAtDM_EN/>}
             </div>
           </div>
         </div>
@@ -128,7 +129,7 @@ const ContentPages = ({len,setPage}) => {
         <div class="container px-4 ">
           <div class="row gx-4 justify-content-center">
             <div class="col-lg-10">
-              <Activities />
+              {chooseLAN()?<Activities_SP/>:<Activities_EN/>}
             </div>
           </div>
         </div>
@@ -139,7 +140,7 @@ const ContentPages = ({len,setPage}) => {
         <div class="container px-4 ">
           <div class="row gx-4 justify-content-center">
             <div class="col-lg-10">
-              <BookingFlight />
+            {chooseLAN()?<BookingFlight_SP/>:<BookingFlight_EN/>}
             </div>
           </div>
         </div>
@@ -150,7 +151,7 @@ const ContentPages = ({len,setPage}) => {
         <div class="container px-4 ">
           <div class="row gx-4 justify-content-center">
             <div class="col-lg-10">
-              <RSVPAdditional />
+            {chooseLAN()?<RSVPAdditional_SP/>:<RSVPAdditional_EN/>}
             </div>
           </div>
         </div>

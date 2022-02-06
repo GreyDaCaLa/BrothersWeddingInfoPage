@@ -1,4 +1,4 @@
-const StayingAtDM = () => {
+const StayingAtDM_EN = () => {
   return (
     <>
       <div className="Self_head1 text-center">
@@ -11,7 +11,7 @@ const StayingAtDM = () => {
         mind that due to the time of the year and all the holidays near our
         wedding date the resort requires a
         <strong> minimum of 4 nights stay</strong>. All up to you how you want
-        to select the dates. Just know the wedding is on
+        to select the dates. Just know the wedding is on{" "}
         <strong className="Self_redtext">
           Friday December 30th, 2022 at 4:30pm.
         </strong>
@@ -52,4 +52,4 @@ const StayingAtDM = () => {
   );
 };
 
-export default StayingAtDM;
+export default StayingAtDM_EN;

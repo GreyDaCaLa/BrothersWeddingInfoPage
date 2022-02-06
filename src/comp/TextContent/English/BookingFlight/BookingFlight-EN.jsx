@@ -1,4 +1,4 @@
-const BookingFlight = () => {
+const BookingFlight_EN = () => {
   return (
     <>
       <div className="Self_head1 text-center">
@@ -14,13 +14,6 @@ const BookingFlight = () => {
         up the distance from the resort you are staying at to the closest
         airport. Also, when booking your hotel sometimes they might offer pick
         up and drop off to the airport at an extra fee, usually pretty doable.
-      </div>
-
-      <div className="Self_TextBody">
-        Punta Cana International Airport- Code PUJ (35 mins from Dreams Macao)
-        La Romana International Airport- Code LRM (1hr 30 mins from Dreams
-        Macao) Las Americas International Airport - Code SDQ (2hrs 30mins from
-        Dreams Macao)
       </div>
 
       <ol className="Self_TextBody">
@@ -40,4 +33,4 @@ const BookingFlight = () => {
   );
 };
 
-export default BookingFlight;
+export default BookingFlight_EN;

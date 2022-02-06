@@ -1,4 +1,4 @@
-const RSVPAdditional = () => {
+const RSVPAdditional_EN = () => {
     return (
       <>
       
@@ -28,13 +28,13 @@ const RSVPAdditional = () => {
       </div>
 
 
-      <div className="Self_TextBody"><strong><u>Dress Code:</u></strong> Beach Wedding Attire</div>
+      <div className="Self_TextBody"><strong><u>Dress Code:</u></strong> <a href="https://www.brides.com/beach-wedding-attire-4842339"> Beach Wedding Attire</a></div>
 
 
       <div className="Self_TextBody" >
-        Like mentioned above it is going to be hot. As of now the wedding
-        ceremony is being planned for outside by the beach. The reception as
-        of now as well will be at a rooftop outside.
+      Like mentioned above it is going to be hot. As of now the wedding
+        ceremony is being planned for outside by the beach. The reception as of
+        now as well will be at a rooftop outside.
       </div>
 
       <div className="Self_TextBody">
@@ -62,8 +62,21 @@ const RSVPAdditional = () => {
       <div  className="Self_head1"><u>Contact Information for the couple:</u></div>
 
       <div className="Self_TextBody">
-        If you have any questions or concerns please call or text Gregorio
-        at 616-204-2105 or Loanna at 616-706-4128.
+        If you have any questions or concerns please call or text:
+        <ul>
+          <li>
+            <strong>
+              <u>Gregorio:</u>
+            </strong>{" "}
+            616-204-2105
+          </li>
+          <li>
+            <strong>
+              <u>Loanna:</u>
+            </strong>{" "}
+            616-706-4128
+          </li>
+        </ul>
       </div>
 
       <div className="Self_Spacer"></div>
@@ -72,5 +85,5 @@ const RSVPAdditional = () => {
     );
   };
   
-  export default RSVPAdditional;
+  export default RSVPAdditional_EN;
   
