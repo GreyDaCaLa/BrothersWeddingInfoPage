@@ -40,6 +40,7 @@ const BookingYourStay_SP = () => {
           <a
             className="col-auto ps-1"
             href={`https://www.dreamsresorts.com.do/`}
+            target="_blank"
           >
             Dreams Macao Punta Cana
           </a>

@@ -36,7 +36,9 @@ const RSVPAdditional_SP = () => {
         <strong>
           <u>Código de vestimenta:</u>
         </strong>{" "}
-        <a href="https://lasbodasoriginales.com/guia-vestimenta-para-bodas-playa">
+        <a 
+        target="_blank"
+        href="https://lasbodasoriginales.com/guia-vestimenta-para-bodas-playa">
           Atuendo de boda en la playa
         </a>
       </div>
@@ -83,7 +85,7 @@ const RSVPAdditional_SP = () => {
       </div>
 
       <div className="Self_head1">
-        <u>Contact Information for the couple:</u>
+        <u>Información para contactar a la pareja:</u>
       </div>
 
       <div className="Self_TextBody">

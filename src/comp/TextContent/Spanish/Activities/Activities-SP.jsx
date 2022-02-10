@@ -20,6 +20,7 @@ const Activities_SP = () => {
         <li>
         Para obtener mas información o otras opciones,{" "}
           <a
+          target="_blank"
             href={`https://www.amstardmc.com/excursions/search-results.33.punta-cana/`}
           >
             <button className="btn btn-primary btn-sm Self-TextBody">CLIC AQUI</button>

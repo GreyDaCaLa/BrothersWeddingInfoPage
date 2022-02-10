@@ -36,7 +36,7 @@ const BookingYourStay_EN = () => {
         <strong className="col-sm-2 p-0 ">Location:</strong> <span className="col-auto ps-1"> Punta Cana, Dominican Republic</span>
         </div>
         <div className="row m-0 p-0 text-center text-md-end justify-content-center justify-content-md-start">
-        <strong className="col-sm-2 p-0">Resort:</strong> <a className="col-auto ps-1" href={`https://www.amrcollection.com/en/resorts-hotels/dreams/dominican-republic/macao-beach-punta-cana/?utm_source=gmb&utm_medium=Yext`}>Dreams Macao Punta Cana</a> 
+        <strong className="col-sm-2 p-0">Resort:</strong> <a target="_blank" className="col-auto ps-1" href={`https://www.amrcollection.com/en/resorts-hotels/dreams/dominican-republic/macao-beach-punta-cana/?utm_source=gmb&utm_medium=Yext`}>Dreams Macao Punta Cana</a> 
         </div>
         <div className="row m-0 p-0 text-center text-md-end justify-content-center justify-content-md-start">
         <strong className="col-sm-2 p-0">Address:</strong> <span className="col-10 ps-1 text-md-start"> Playa Macao, Uvero Alto, 23000 Punta Cana, Dominican Republic</span>

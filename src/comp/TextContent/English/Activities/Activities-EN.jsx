@@ -21,6 +21,7 @@ const Activities_EN = () => {
         <li>
           For Information or other options follow the link below{" "}
           <a
+            target="_blank"
             href={`https://www.amstardmc.com/excursions/search-results.33.punta-cana/`}
           >
             <button className="btn btn-primary btn-sm Self-TextBody">CLICK HERE</button>

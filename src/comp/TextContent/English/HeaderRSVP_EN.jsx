@@ -10,6 +10,7 @@ const HeaderRSVP_EN = () => {
         WithJOY site below.
       </p>
       <a
+      target="_blank"
         class="btn btn-outline-light"
         href="https://withjoy.com/loanna-and-gregorio/welcome"
       >

@@ -10,7 +10,7 @@ const RSVPAdditional_EN = () => {
       <div className="Self_TextBody">
         You have until the end of June 2022 to save up, look at your options
         and decide what to do. We say this because Greg and I need final
-        total numbers of guests by <strong className="Self_redtext">6/30/2022</strong>. If we  <strong> NOT</strong> receive your RSVP
+        total numbers of guests by <strong className="Self_redtext">6/30/2022</strong>. If we do <strong> NOT</strong> receive your RSVP
         by then, we <strong> WILL</strong> assume you are <strong> not attending</strong>. <strong className="Self_redtext">THIS DATE IS NOT
         FLEXIBLE.</strong>
       </div>
@@ -28,7 +28,7 @@ const RSVPAdditional_EN = () => {
       </div>
 
 
-      <div className="Self_TextBody"><strong><u>Dress Code:</u></strong> <a href="https://www.brides.com/beach-wedding-attire-4842339"> Beach Wedding Attire</a></div>
+      <div className="Self_TextBody"><strong><u>Dress Code:</u></strong> <a target="_blank" href="https://www.brides.com/beach-wedding-attire-4842339"> Beach Wedding Attire</a></div>
 
 
       <div className="Self_TextBody" >
